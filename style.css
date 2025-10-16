@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./background.jpg);
+}
+.Register{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    margin-top: 15%;
+    border-radius: 10px;
+    width: 300px;
+    padding: 80px;
+    justify-content: center;
+    height:200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+h1{
+    text-align: center;
+    color: #3B00DB;
+}
+#name, #email ,#password{
+    border:none;
+    border-bottom:black solid  1px ;
+    width: 100%;
+    padding: 3px;
+    margin: 5px;
+}
+#name, #email , #password ,:focus{
+    outline: none;
+}
+label{
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+#submitButton{
+    cursor: not-allowed;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
